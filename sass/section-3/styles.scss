@@ -1,0 +1,67 @@
+.section-3 {
+    display: flex;
+    padding-top: 1px;
+    background-color: $main;
+    align-items: flex-end;
+    position: relative;
+    bottom: 200px;
+
+    &__woman {
+        position: relative;
+        left: 5%;
+        width: 36vw;
+        opacity: 1;
+        z-index: 999;
+    }
+
+    &__steps {
+        width: 17vw
+    }
+
+    &__pills {
+        position: relative;
+        bottom: 0px;
+        left: 2%;
+    }
+
+    &__pack {
+        width: 42vw;
+        position: absolute;
+        left: 7%;
+        top: 25%;
+    }
+
+    &__pack-reverse {
+        width: 34vw;
+        margin-bottom: 20%;
+    }
+
+    &__btn {
+        @include adaptiv-font(24, 14);
+        position: absolute;
+        right: 20%;
+        bottom: 0;
+        width: 19vw;
+        max-height: 60px;
+        background: $activeBtn;
+        border-radius: 60px;
+        color: #ffff;
+        padding: 3% 0;
+        // line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+            color: #F0CE4C
+        }
+
+        &:active {
+            cursor: pointer;
+            background-color: grey;
+            color: black;
+        }
+    }
+}
+    

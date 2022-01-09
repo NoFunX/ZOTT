@@ -1,0 +1,62 @@
+.section-5 {
+    background-color: $main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        @include adaptiv-font(70, 38);
+        // line-height: 72px;
+        color: #0E0E75;
+    }
+
+    &__desc {
+        @include adaptiv-font(24, 13);
+        // line-height: 28px;
+        color: #000000;
+
+        &_black {
+            color: #000000;
+            font-family: 'Noah-Regular, sans-serif';   
+        }
+
+        &_red {
+            color: #EE3F22;
+            font-family: 'Noahbold, sans-serif';
+        }
+    }
+
+    &__img {
+        position: relative;
+        z-index: 2;
+        width: 32vw;
+    }
+
+    &__btn {
+        @include adaptiv-font(24, 14);
+        margin-top: 7%;
+        background: $activeBtn;
+        border-radius: 60px;
+        color: #ffff;
+        padding: 3% 0;
+        // line-height: 28px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        border: none;
+        margin-bottom: 30%;
+        position: relative;
+        z-index: 999;
+        width: 19vw;
+    
+        &:hover {
+            cursor: pointer;
+            color: #F0CE4C
+        }
+    
+        &:active {
+            cursor: pointer;
+            background-color: grey;
+            color: black;
+        }
+    }
+}

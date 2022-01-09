@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Noahbold, sans-serif";
+    src: url("../fonts/Noahbold.woff") format("woff");
+    src: url("../fonts/Noahbold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Noah-Regular, sans-serif";
+    src: url("../fonts/Noah-Regular.woff") format("woff");
+    src: url("../fonts/Noah-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "./mixins/adaptiv-font.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: "Noahbold, sans-serif";
+    background: #E5E5E5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100vw;
+}
+
+.section {
+    width: 100%;
+    opacity: 0;
+    padding: 1px;
+}
+
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 3s;
+}
+
+@import "./colors/styles.scss";
+@import "./header/styles.scss";
+@import "./section-1/styles.scss";
+@import "./section-2/styles.scss";
+@import "./section-3/styles.scss";
+@import "./section-4/styles.scss";
+@import "./section-5/styles.scss";
+@import "./footer/styles.scss";
