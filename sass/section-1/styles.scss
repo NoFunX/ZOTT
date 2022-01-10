@@ -69,7 +69,6 @@
         @include adaptiv-font(24, 14);
         width: 237px / 1440px * 100%;
         margin-top: 32px;
-        max-height: 60px;
         padding: 1% 0;
         font-style: normal;
         font-weight: bold;
@@ -93,7 +92,6 @@
     &__btn:last-child {
         @include adaptiv-font(24, 14);
         width: 237px / 1440px * 100%;
-        max-height: 60px;
         padding: 1% 0;
         font-style: normal;
         font-weight: bold;

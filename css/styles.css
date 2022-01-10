@@ -213,7 +213,6 @@ main {
 .actions__btn {
   width: 16.4583333333%;
   margin-top: 32px;
-  max-height: 60px;
   padding: 1% 0;
   font-style: normal;
   font-weight: bold;
@@ -243,7 +242,6 @@ main {
 }
 .actions__btn:last-child {
   width: 16.4583333333%;
-  max-height: 60px;
   padding: 1% 0;
   font-style: normal;
   font-weight: bold;
@@ -427,7 +425,6 @@ main {
   right: 20%;
   bottom: 0;
   width: 19vw;
-  max-height: 60px;
   background: #EE3F22;
   border-radius: 60px;
   color: #ffff;
