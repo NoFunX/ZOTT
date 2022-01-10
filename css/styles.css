@@ -413,7 +413,7 @@ main {
   left: 2%;
 }
 .section-3__pack {
-  width: 42vw;
+  width: 39vw;
   position: absolute;
   left: 7%;
   top: 25%;
@@ -513,7 +513,6 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 7vw;
 }
 .section-4__list-item:nth-child(2) .section-4__item-wrapper::before {
   content: url("../../img/Frame19.png");
@@ -521,7 +520,6 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 7vw;
   display: inline-block;
 }
 .section-4__list-item:nth-child(3) .section-4__item-wrapper::before {
@@ -530,7 +528,6 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 7vw;
   display: inline-block;
 }
 .section-4__list-item:nth-child(4) .section-4__item-wrapper::before {
@@ -539,7 +536,6 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 7vw;
   display: inline-block;
 }
 .section-4__list-desc {
@@ -712,7 +708,7 @@ main {
 .footer {
   background-image: url("../../img/footer.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100vw;
   display: flex;
   align-items: flex-end;
